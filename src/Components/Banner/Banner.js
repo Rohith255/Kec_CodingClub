@@ -2,12 +2,14 @@ import React from "react";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import Logo from "../../assets/cClub_logo.jpeg";
 const Banner = () => {
   return (
     <div className="banner">
       <div className="banner_nav">
-        <div className="icon">logo</div>
+        <div className="icon">
+          <img src={Logo} className="icon_img" />
+        </div>
         <div className="banner_menu">
           <div className="banner_menu_container">
             <div className="menu-item">Home</div>

@@ -1,0 +1,7 @@
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  color: black;
+}
+.timeline {
+  margin: 40px;
+  box-shadow: 10px 10px 10px gainsboro;
+}

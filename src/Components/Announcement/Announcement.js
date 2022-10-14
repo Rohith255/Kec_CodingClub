@@ -11,7 +11,13 @@ const Announcement = () => {
 
       <div className="announcement-body">
         <div className="announce-carousal">
-          <Carousel dynamicHeight={true} infiniteLoop={true} autoPlay={true}>
+          <Carousel
+            dynamicHeight={true}
+            infiniteLoop={true}
+            autoPlay={true}
+            showIndicators={false}
+            showStatus={false}
+          >
             <div className="announcement-post">
               <h1 className="announcement-heading">KOngu 2k21</h1>
               <h2 className="announcement-desc">
