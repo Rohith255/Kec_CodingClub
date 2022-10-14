@@ -9,7 +9,7 @@
     url("../../assets/banner.jpg");
 
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
 .banner_nav {
   width: 100%;
