@@ -1,3 +1,8 @@
+:root {
+  --blue: rgb(50, 126, 246);
+  --darkblue: #0E1843;
+  font-family: 'Nunito Sans', sans-serif;
+}
 .Campus-main {
   width: 100%;
   height: 700px;
@@ -7,10 +12,12 @@
   width: 100%;
   height: 10%;
   /* border: 1px solid red; */
-  align-items: center;
   display: flex;
   justify-content: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--blue);
+  align-items: flex-end;
+  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 .Campus-para {
   width: 100%;
@@ -18,6 +25,9 @@
   /* border: 1px solid red; */
   display: flex;
   text-align: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .Campus-card {
   display: flex;
@@ -35,10 +45,13 @@
   display: flex;
   border-radius: 15px;
   flex-direction: column;
+  cursor: pointer;
 }
 .Campus-card-box:hover {
   /* border: 1px solid aliceblue; */
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 1px solid var(--blue); */
+  /* box-shadow: 1px 16px 34px 10px rgba(110, 155, 228, 0.28); */
+  box-shadow: rgba(106, 106, 214, 0.2) 0px 7px 29px 0px;
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   /* box-shadow: 2px 2px 6px rgba(123, 123, 123, 0.683); */
 }
@@ -55,7 +68,13 @@
 .Campus-card-box-img {
   width: 95%;
   height: 95%;
-  /* border: 1px solid red; */
+ 
+  border-radius: 16px;
+}
+.Campus-card-box:hover .Campus-card-box-img{
+  /* transition: 0.25s; */
+  /* box-shadow: rgba(106, 106, 214, 0.2) 0px 7px 29px 0px; */
+  /* border: 2px solid var(--blue); */
 }
 .Campus-card-box-img img {
   width: 100%;
@@ -68,6 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--blue);
   /* border: 1px solid black; */
 }
 .Campus-card-box-para {
@@ -75,5 +95,7 @@
   height: 30%;
   text-align: center;
   color: grey;
-  /* border: 1px solid wheat; */
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
 }
