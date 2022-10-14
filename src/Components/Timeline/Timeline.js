@@ -13,14 +13,17 @@ import { VscDebugStart } from "react-icons/vsc";
 const Timeline = () => {
   return (
     <div className="timeline">
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="rgb(233, 222, 222)">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2016"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaFlagCheckered />}
+          iconStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "#fff",
+          }}
+          icon={<FaFlagCheckered size={30} />}
         >
           <h3 className="vertical-timeline-element-title">Established</h3>
           <h4 className="vertical-timeline-element-subtitle">
