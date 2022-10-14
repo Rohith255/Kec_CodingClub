@@ -1,0 +1,185 @@
+.Hero-main{
+    width: 100%;
+    height: 720px;
+    background-image:url("Images/hero-5.jpg");
+    background-size: 100%;
+    /* background-blend-mode:multiply; */
+    /* border: 1px solid red; */
+}
+.Hero-navbar{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.Hero-navbar-logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 20px; */
+    /* border: 1px solid red; */
+}
+.Hero-navbar-logins{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+.Hero-navbar-logins-01{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.btn-01{
+    width: 35%;
+    height: 40%;
+    background-color: white;
+    color: brown;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+.btn-01:hover{
+    transition: 0.45s;
+    transform: scale(1.1);
+}
+.btn-02{
+    width: 50%;
+    height: 55%;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn-02:hover {
+    transition: 0.45s;
+    transform: scale(1.1);
+}
+.Hero-section{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
+}
+.Hero-section-01{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid red; */
+}
+.Hero-section-header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    font-size: 1.4rem;
+    color: brown;
+}
+.Hero-section-para{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    /* border: 1px solid red; */
+}
+.Hero-section-button{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.Hero-section-button button{
+    width: 15%;
+    height: 50%;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-weight: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Hero-section-button button:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+@media only screen and (max-width:400px) and (max-width:480px){
+    .Hero-main{
+        width: 100vw;
+        height: 765px;
+        /* background-color: aqua; */
+        /* background-image: none; */
+        background-image: url("https://cdn.wallpaperhub.app/cloudcache/3/7/e/f/3/9/37ef390c72825d451da439ea30dc38060616258b.jpg");
+        /* justify-content: space-between; */
+        /* border: 1px solid red; */
+    }
+    .Hero-navbar{
+            width: 100vw;
+            height: 10vh;
+            justify-content: space-between;
+            /* border: 1px solid red; */
+    }
+    .Hero-navbar-logo{
+        width: 25vw;
+        /* border: 1px solid black; */
+    }
+    .Hero-navbar-logo img{
+        width: 70%;
+        height: 70%;
+    }
+    .Hero-navbar-logins{
+        width: 60%;
+        /* background-color: aliceblue; */
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .Hero-navbar-logins-01{
+        width: 100vw;
+        /* border: 1px solid red; */
+    }
+    .Hero-section{
+        align-items: flex-start;
+        /* background-color: aqua; */
+    }
+    .Hero-section-01{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        /* background-color: black; */
+    }
+    .Hero-section-header{
+        display: flex;
+        /* color: white; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* border: 1px solid red; */
+        justify-content:center ;
+        font-size: 1.2rem;
+        /* padding-left: 20px; */
+        /* text-align: center; */
+        /* display: flex; */
+        /* border: 1px solid red; */
+    }
+    .Hero-section-header h1{
+        padding-left: 25px;
+    }
+    .Hero-section-button button{
+        width: 45%;
+        height: 45%;
+    }
+}
