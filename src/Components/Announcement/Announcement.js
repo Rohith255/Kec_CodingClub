@@ -29,6 +29,16 @@ const Announcement = () => {
                 quaerat magni doloribus explicabo.
               </h2>
             </div>
+            <div className="announcement-post">
+              <h1 className="announcement-heading">Loaded 2k22</h1>
+              <h2 className="announcement-desc">
+                Conducted by KEC cultural club, On 26-05-2020 Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Veniam expedita quidem
+                odio modi repellendus suscipit tenetur obcaecati. Quae excepturi
+                eius cupiditate hic cumque, architecto, praesentium natus,
+                quaerat magni doloribus explicabo.
+              </h2>
+            </div>
           </Carousel>
         </div>
       </div>
