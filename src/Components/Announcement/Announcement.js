@@ -13,7 +13,7 @@ const Announcement = () => {
         <div className="announce-carousal">
           <Carousel dynamicHeight={true} infiniteLoop={true} autoPlay={true}>
             <div className="announcement-post">
-              <h1 className="announcement-heading">KOngu 2k21</h1>
+              <h1 className="announcement-heading">Kongu 2k21</h1>
               <h2 className="announcement-desc">
                 Conducted by KEC cultural club, On 26-05-2020 Lorem ipsum dolor
                 sit amet consectetur, adipisicing elit. Veniam expedita quidem
@@ -24,9 +24,8 @@ const Announcement = () => {
               <h2 className="announcement-desc">
                 Conducted by KEC cultural club, On 26-05-2020 Lorem ipsum dolor
                 sit amet consectetur, adipisicing elit. Veniam expedita quidem
-                odio modi repellendus suscipit tenetur obcaecati. Quae excepturi
-                eius cupiditate hic cumque, architecto, praesentium natus,
-                quaerat magni doloribus explicabo.
+                odio modi architecto, praesentium natus, quaerat magni doloribus
+                explicabo.
               </h2>
             </div>
             <div className="announcement-post">
@@ -34,9 +33,8 @@ const Announcement = () => {
               <h2 className="announcement-desc">
                 Conducted by KEC cultural club, On 26-05-2020 Lorem ipsum dolor
                 sit amet consectetur, adipisicing elit. Veniam expedita quidem
-                odio modi repellendus suscipit tenetur obcaecati. Quae excepturi
-                eius cupiditate hic cumque, architecto, praesentium natus,
-                quaerat magni doloribus explicabo.
+                odio modi cumque, architecto, praesentium natus, quaerat magni
+                doloribus explicabo.
               </h2>
             </div>
           </Carousel>

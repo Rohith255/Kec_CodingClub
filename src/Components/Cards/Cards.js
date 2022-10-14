@@ -1,11 +1,7 @@
 import React from "react";
 import "./Cards.css";
 export default function Cards() {
-  const C_header = [
-    "Undergraduate Programs",
-    "Graduate Programs",
-    "Post Graduation",
-  ];
+  const C_header = ["psychology", "emoji_objects", "hub"];
   const C_para = [
     "For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.",
     "Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.",
@@ -37,7 +33,7 @@ export default function Cards() {
             return (
               <div className="Card-details-box">
                 <div className="Card-box-header">
-                  <h2>{data}</h2>
+                  <span class="material-symbols-outlined">{data}</span>
                 </div>
                 <div className="Card-box-para">
                   <p>{C_para[index++]}</p>

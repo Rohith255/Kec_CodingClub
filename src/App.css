@@ -4,3 +4,7 @@
   list-style: none;
   text-decoration: none;
 }
+:root {
+  --blue: rgb(50, 126, 246);
+  --darkblue: #0E1843;
+}

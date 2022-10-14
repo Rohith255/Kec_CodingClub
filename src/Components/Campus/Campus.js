@@ -12,9 +12,9 @@ export default function Campus() {
     "Tasty and Healthy Food.",
   ];
   const card_para = [
-    "Pursue research at Eduford’s libraries, which include more than 3.5 million holdings. Whether your focus is on a specific discipline, interdisciplinary areas or emerging fields, our libraries offer academic resources, a maker hub, collaborative spaces and more.",
+    "Pursue research at Eduford’s librarien holdings. Whether your focus is oareas or emerging fields, our libraries offer academic resources, a maker hub, collaborative spaces and more.",
     "The College introduces students to philosophy and theology and challenges them to delve deeply into the arts, humanities, languages, social sciences and sciences.",
-    "Whether students pursue studies in Arabic, chemistry, government or one of hundreds of other opportunities, they are part of a rich legacy of academic excellence designed to serve them well in an ever-changing world.",
+    "Whether students pursue studies in Arthem well in an ever-changing world.",
   ];
   let index = 0;
   let flag = 0;
