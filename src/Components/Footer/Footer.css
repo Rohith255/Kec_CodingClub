@@ -38,22 +38,26 @@
   width: 100%;
   height: 20%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   color: var(--white);
+  /* border: 1px solid red; */
   /* border: 1px solid red; */
   /* justify-content: center; */
 }
 
-.Footer-content-box-header h5 {
-  color: var(--white);
-  font-size: 1.2rem;
+.Footer-content-box-header h2 {
+  font-size: 1.5rem;
+  padding-left: 20px;
+  /* border: 1px solid red; */
 }
 .Footer-box-links {
-  width: 100%;
+  width: 90%;
   height: 50%;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
+    /* background-color: aliceblue; */
   /* padding-top: 10px; */
-  margin-top: 18px;
+  /* margin-top: 18px; */
+    padding-top: 20px;
   padding-left: 28px;
 }
 .Footer-box-links ul {
@@ -74,12 +78,21 @@
   color: var(--white);
   cursor: pointer;
 }
+.contact-details {
+  /* padding-left: 0%; */
+  /* border: 1px solid red; */
+  color: white;
+  font-size: 1.1rem;
+  line-height: 30px;
+  line-height: 34px;
+  /* grid-area: 20px; */
+}
 .Footer-content-box-header h3 {
   /* color: brown; */
   padding-left: 30px;
 }
 .Footer-content-01 {
-  width: 40%;
+  width: 45%;
   height: 80%;
   display: flex;
   /* background-color: whiteviolet; */
@@ -145,7 +158,7 @@
   width: 25%;
   height: 80%;
   border: 2px solid var(--white);
-  /* background-color: white; */
+  background-color: white;
   color: var(--white);
   font-weight: 600;
 }
@@ -175,9 +188,11 @@
 .footer-content-02-header h5,
 .Footer-content-box-call-header h5,
 .Footer-content-box-header h5 {
-  padding-left: 28px;
+  padding-left: 38px;
   font-weight: 800;
-  /* color: brown; */
+  color: whitesmoke;
+  /* color: #f70083; */
+    /* border: 1px solid red; */
 }
 .footer-02-icons {
   width: 100%;
@@ -185,18 +200,14 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
 }
 .footer-02-icons ul {
   display: inline-flex;
-  gap: 40px;
+  gap: 48px;
   flex-wrap: wrap;
 }
-.contact-details {
-  color: white;
-  font-size: 1.1rem;
-  line-height: 30px;
-}
+
 
 .footer-02-icons ul li {
   list-style-type: none;

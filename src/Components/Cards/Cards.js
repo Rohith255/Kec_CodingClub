@@ -3,9 +3,9 @@ import "./Cards.css";
 export default function Cards() {
   const C_header = ["psychology", "emoji_objects", "hub"];
   const C_para = [
-    "For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.",
-    "Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.",
-    "The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.",
+    "Conduct workshops on areas of computer science like web development, application development, machine learning, IoT etc. ",
+    "Contribute to open source projects, build websites and applications, provide technical support to organizations and various clubs on campus Represent the college at inter-collegiate coding events",
+    "Conduct more coding competitions to reach every students of our department. Organizing guest lecture monthly twice to impart coding skills to the students",
   ];
   let index = 0;
   return (
@@ -21,7 +21,6 @@ export default function Cards() {
             practices.It provides an environment for relaxation, social
             interaction, education and exchange of thoughts. It serves Tech
             students, staff, faculty, alumni and the greater Lubbock community.
-            Student Activities complements the University's academic programs.
             It enhances the overall educational experiences of students through
             development of, exposure to, and participation in social, cultural,
             multicultural, intellectual, recreational, traditional, community
