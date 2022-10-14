@@ -10,9 +10,6 @@ const Announcement = () => {
       <div className="announcement-title">Announcements</div>
 
       <div className="announcement-body">
-        <div className="announcement-banner">
-          <img src={picBg} className="announce-pic" />
-        </div>
         <div className="announce-carousal">
           <Carousel dynamicHeight={true} infiniteLoop={true} autoPlay={true}>
             <div className="announcement-post">
