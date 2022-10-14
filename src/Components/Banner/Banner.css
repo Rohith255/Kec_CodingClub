@@ -1,10 +1,13 @@
+:root {
+  --blue: rgb(50, 126, 246);
+}
 .banner {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(
       to bottom,
       rgba(10, 10, 10, 0.52),
-      rgba(1, 9, 20, 0.73)
+      rgba(20, 57, 108, 0.73)
     ),
     url("../../assets/banner.jpg");
 
@@ -43,17 +46,21 @@
 }
 .menu-item {
   color: white;
+  font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Libre Baskerville', serif; */
 }
 
 .login {
-  background-color: red;
-  height: 25px;
+  background-color: var(--blue);
+    height: 28px;
   width: 68px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 3px 7px;
+  font-weight: 500;
 }
 .banner_content {
   width: 100%;
@@ -80,10 +87,13 @@
 
 .banner_button {
   padding: 5px 15px;
-  background: red;
+  background-color: var(--blue);
+    cursor: pointer;
   height: 35px;
   width: 11%;
   display: flex;
+  font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   align-items: center;
   justify-content: space-between;
 }
@@ -95,6 +105,8 @@
 .down {
   margin-bottom: -18px;
 }
-.swipe_down:hover {
+.banner_button:hover .swipe_down {
   margin-top: 8px;
+}
+.swipe_down:hover {
 }
