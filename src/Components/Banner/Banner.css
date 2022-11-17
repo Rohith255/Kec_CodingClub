@@ -108,11 +108,47 @@
   flex-direction: column;
   transition: all 0.4s;
 }
+.banner_menu button {
+  display: none;
+}
 .down {
   margin-bottom: -18px;
 }
 .banner_button:hover .swipe_down {
   margin-top: 8px;
 }
-.swipe_down:hover {
+@media (max-width:600px) {
+  .icon {
+    width: 30%;
+    /* border: 1px solid red; */
+  }
+
+  .icon img {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  .menu-item-login {
+    display: block;
+  }
+
+  .banner_menu button {
+    display: block;
+    width: 70%;
+    height: 55%;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: var(--blue);
+  }
+
+  .banner_button {
+    width: 40%;
+  }
 }

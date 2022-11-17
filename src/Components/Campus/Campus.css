@@ -72,11 +72,6 @@
  
   border-radius: 16px;
 }
-.Campus-card-box:hover .Campus-card-box-img{
-  /* transition: 0.25s; */
-  /* box-shadow: rgba(106, 106, 214, 0.2) 0px 7px 29px 0px; */
-  /* border: 2px solid var(--blue); */
-}
 .Campus-card-box-img img {
   width: 100%;
   height: 100%;
@@ -100,4 +95,43 @@
   align-items: center;
   line-height: 22px;
   /* border: 1px solid red; */
+}
+@media (max-width:600px) {
+  .Campus-main {
+    width: 100vw;
+    height: 1900px;
+    /* background-color: #0E1843; */
+  }
+
+  .Campus-header {
+    height: 5%;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+
+  .Campus-para {
+    /* border: 1px solid red; */
+    width: 98%;
+    justify-content: center;
+    align-items: flex-start;
+    height: 8%;
+  }
+
+  .Campus-card {
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .Campus-card-box {
+    width: 85%;
+    /* align-items: flex-start; */
+    height: 30%;
+    box-shadow: rgba(106, 106, 214, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid var(--darkblue); */
+    /* flex-direction: column; */
+    /* background-color: aliceblue; */
+  }
 }

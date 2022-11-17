@@ -15,3 +15,9 @@
   /* border-bottom: 4px solid var(--blue); */
   /* box-shadow: 10px 10px 10px gainsboro; */
 }
+@media (max-width:600px) {
+  .timeline {
+    border-left: none;
+    border-right: none;
+  }
+}

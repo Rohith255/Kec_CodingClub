@@ -13,7 +13,7 @@ export default function Footer() {
               <ul>
                 <li>Home</li>
                 <li>Mission</li>
-                <li>Activities</li>
+                <li>Faculty Memebers</li>
                 <li>Portal</li>
               </ul>
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
                 <li>Our Works</li>
               </ul> */}
               <div className="contact-details">
-                <p>Dr.M.Pyingudi</p>
+                <p>Dr.M.Pyingkodi</p>
                 <p>Associate Professor</p>
                 <p>Kongu Engineering College</p>
                 <p>Email : pyingudimca@kongu.ac.in</p>

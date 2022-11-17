@@ -17,6 +17,7 @@ const Banner = () => {
             <div className="menu-item login">Sign In</div>
             <div className="menu-item">Sign Up</div>
           </div>
+          <button>Sign In</button>
         </div>
       </div>
       <div className="banner_content">
